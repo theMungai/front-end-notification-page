@@ -20,9 +20,8 @@ unreadMessages.forEach((message) => {
 let count = 3
 function eachDot(){
     redDot.forEach((dot) => {
-        const appUser = dot.dataset.appUser = dot
-        console.log(appUser)
-        dot.style.visibility = "hidden"
+       
+        dot.style.visibility = "hidden";
     })
 
     if(count > 0){

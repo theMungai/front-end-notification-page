@@ -175,6 +175,10 @@ body{
     font-weight: 700;
 }
 
+.first-tournament:hover{
+    color: var(--blue);
+}
+
 .end-game {
     font-weight: 600;
 }
