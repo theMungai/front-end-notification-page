@@ -16,11 +16,11 @@
     <div class="main-container">
         <div class="header">
            <h3>Notifications <span class="notification-count">3</span></h3>
-           <button>Mark all as read</button>
+           <button class="mark-all">Mark all as read</button>
         </div>
 
         <div class="notifications-container">
-            <div class="app-user">
+            <div class="app-user js-notification" data-message="app-user">
                 <div class="profile">
                     <img src="images/avatar-mark-webber.webp" alt="">
                 </div>
@@ -38,7 +38,7 @@
                 </div>
             </div>
 
-            <div class="app-user">
+            <div class="app-user js-notification">
                 <div class="profile">
                     <img src="images/avatar-angela-gray.webp" alt="">
                 </div>
@@ -56,7 +56,7 @@
                 </div>
             </div>
 
-            <div class="app-user">
+            <div class="app-user js-notification">
                 <div class="profile">
                     <img src="images/avatar-jacob-thompson.webp" alt="">
                 </div>
@@ -142,5 +142,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.frontendmentor.io/profile/theMungai" target="_blank">theMungai</a>.
   </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
