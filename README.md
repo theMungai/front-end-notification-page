@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/theMungai/front-end-notification-page)
-- Live Site URL: [live site](https://your-live-site-url.com)
+- Live Site URL: [live site](https://front-end-notification-page.vercel.app/)
 
 ## My process
 
