@@ -194,73 +194,150 @@ body{
 }
 
 
+/* ============= Media Queries ================= */
+/* ============= Mobile Device ================= */
+
 @media (max-width: 480px){
 
-.main-container{
-    width: 100%;
-    margin: 0px auto;
-    padding: 30px 20px;
+    .main-container{
+        width: 100%;
+        margin: 0px auto;
+        padding: 30px 20px;
+    }
+
+    .header{
+        margin-bottom: 20px;
+    }
+
+    .header button {
+        font-size: 0.9rem;
+    }
+
+    .notifications-container{
+        padding: 20px 10px;
+        margin: 0px auto;
+    }
+
+    .app-user{
+        column-gap: 1rem;
+        margin-bottom: 30px;
+    }
+
+    .profile{
+        width: 40px;
+    }
+
+
+    .dotted-message p {
+        font-size: 0.9rem;
+    }
+
+    .user-name{
+        font-size: 0.85rem;
+        padding-right: 3px;
+    }
+
+
+    .red-dot{
+        width: 8px;
+        height: 8px;
+    }
+
+
+    .period,
+    .notification{
+        font-size: 0.9rem;
+    }
+
+
+    .message-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .opened-notification{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .sent-image{
+        width: 50px;
+    }
+
+
 }
 
-.header{
-    margin-bottom: 20px;
-}
 
-.header button {
-    font-size: 0.9rem;
-}
+/* ============= Tablet Device ================= */
 
-.notifications-container{
-    padding: 20px 10px;
-    margin: 0px auto;
-}
+@media (min-width: 481px) and (max-width : 767px){
 
-.app-user{
-    column-gap: 1rem;
-    margin-bottom: 30px;
-}
+    .main-container{
+        width: 100%;
+        margin: 0px auto;
+        padding: 30px 20px;
+    }
 
-.profile{
-    width: 40px;
-}
+    .header{
+        margin-bottom: 20px;
+    }
 
+    .header button {
+        font-size: 0.9rem;
+    }
 
-.dotted-message p {
-    font-size: 0.9rem;
-}
+    .notifications-container{
+        padding: 20px 10px;
+        margin: 0px auto;
+    }
 
-.user-name{
-    font-size: 0.85rem;
-    padding-right: 3px;
-}
+    .app-user{
+        column-gap: 1rem;
+        margin-bottom: 30px;
+    }
 
-
-.red-dot{
-    width: 8px;
-    height: 8px;
-}
+    .profile{
+        width: 40px;
+    }
 
 
-.period,
-.notification{
-    font-size: 0.9rem;
-}
+    .dotted-message p {
+        font-size: 0.9rem;
+    }
+
+    .user-name{
+        font-size: 0.85rem;
+        padding-right: 3px;
+    }
 
 
-.message-flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    .red-dot{
+        width: 8px;
+        height: 8px;
+    }
 
-.opened-notification{
-    font-size: 0.9rem;
-    width: 100%;
-}
 
-.sent-image{
-    width: 50px;
-}
+    .period,
+    .notification{
+        font-size: 0.9rem;
+    }
+
+
+    .message-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .opened-notification{
+        font-size: 0.9rem;
+        width: 100%;
+    }
+
+    .sent-image{
+        width: 50px;
+    }
 
 
 }
