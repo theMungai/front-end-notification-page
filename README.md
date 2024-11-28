@@ -27,7 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](/screenshots/Desktop-notifications.png)
+![](/screenshots/Mobile-notifications.png)
 
 
 ### Links
@@ -53,4 +54,4 @@ Users should be able to:
 
 
 ## Acknowledgments
-
+I am pleased to have successfully completed the Frontend Mentor - Notifications Page challenge. This project allowed me to apply my skills in HTML, CSS, and JavaScript to build an interactive and responsive Notifications Page. I focused on ensuring that the user interface is intuitive and visually appealing across all devices, from desktops to mobile screens. The challenge gave me the opportunity to enhance my problem-solving abilities, refine my CSS layout techniques for responsiveness, and improve my JavaScript skills by creating dynamic interface. Overall, it was a rewarding experience that deepened my understanding of frontend development and gave me confidence in building fully functional, user-friendly web applications.
