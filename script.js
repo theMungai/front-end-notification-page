@@ -5,28 +5,31 @@ const redDot = document.querySelectorAll(".red-dot-container");
 
 markAll.addEventListener("click", () => {
     notifications.textContent = 0;
-    redDot.forEach((dot) => {
-        dot.style.visibility = "hidden"
+
+    redDot.forEach((singleDot) => {
+        singleDot.style.visibility = "hidden";
     })
+    
+    
 })
 
 
 unreadMessages.forEach((message) => {
     message.addEventListener("click", () => {
-        eachDot()
+        const dot = message.querySelector(".red-dot-container");
+        dot.style.display = "none"
+        countMessages()
+        
     })
-})
+});
 
-let count = 3
-function eachDot(){
-    redDot.forEach((dot) => {
-       
-        dot.style.visibility = "hidden";
-    })
+// Decrement notifications count
 
-    if(count > 0){
-        count --
-    }
-    
-    notifications.textContent = count
+function countMessages(){
+    let count = notifications.innerHTML
+        if(count > 0){
+            count = count -1
+        }
+
+        notifications.textContent = count
 }
